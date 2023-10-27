@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Wirral Summer Hops',
+    'description' => 'Wirral Summer Hops Beer Festival.',
     'collections' => [],
 ];

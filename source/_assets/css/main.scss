@@ -1,0 +1,20 @@
+// Import custom variables and override default Bootstrap variables
+//@import "variables";
+
+// Import Bootstrap amd Bootstrap Icons
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons";
+
+// Import custom styles
+//@import "global";
+
+// Components
+//@import "components/buttons";
+
+// Sections
+//@import "sections/footer";
+//@import "sections/nav";
+
+body {
+  background-color: #ABDBE9;
+}

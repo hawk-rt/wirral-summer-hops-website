@@ -9,7 +9,12 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body class="text-gray-900 font-sans antialiased">
+    <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+{{--        @include('_partials.navigation')--}}
         @yield('body')
+{{--        @include('_partials.footer')--}}
+    </main>
     </body>
+
 </html>
