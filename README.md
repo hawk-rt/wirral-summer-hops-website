@@ -34,7 +34,7 @@ git subtree push --prefix build_production origin gh-pages
 Git can be a pain so if you get an error about "Updates were rejected because a pushed branch tip is behind its remote" then this seems to sort it...
 
 ```
-git push origin `git subtree split --prefix build_production master`:gh-pages --force
+git push origin `git subtree split --prefix build_production main`:gh-pages --force
 ```
 
 Ref: https://stackoverflow.com/a/15623469/2929617
