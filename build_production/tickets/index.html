@@ -1,8 +1,40 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        window.location.replace('https://www.trybooking.com/uk/events/landing/49231?embed');
-    </script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="/tickets">
+        <meta name="description" content="Redirecting to our ticket booking page.">
+        <title>Redirecting...</title>
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=1f8d27aac1552a54d9f2cee6c0cd8eeb">
+        <script defer src="/assets/build/js/main.js?id=e1b922accf38757e774559075dc2e0f9"></script>
+                    <script type="text/javascript">
+                setTimeout(function(){ window.location.href= 'https://www.trybooking.com/uk/events/landing/49231?embed';}, 5000);
+                let timeleft = 4;
+                let downloadTimer = setInterval(function(){
+                    if(timeleft <= 0){
+                        clearInterval(downloadTimer);
+                        document.getElementById("countdown").innerHTML = "0";
+                    } else {
+                        document.getElementById("countdown").innerHTML = timeleft;
+                    }
+                    timeleft -= 1;
+                }, 1000);
+            </script>
+            </head>
+    <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <div class="container-fluid wsh-header py-3">
+        <div class="row">
+        <a href="/"><img src="/assets/images/logo.png" class="mx-auto d-block" alt="Wirral Summer Hops Beer Festival"></a>
+    </div>
+</div>
+            <div class="container py-3">
+        <div class="row text-center">
+            <h1>Your are being redirected to our ticket booking page... <span id="countdown">5</span></h1>
+            <p class="lead"><a href="https://www.trybooking.com/uk/events/landing/49231?embed">Click here</a> if you are not redirected automatically.</p>
+        </div>
+    </div>
+            </main>
+    </body>
 </html>
