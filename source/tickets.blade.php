@@ -1,6 +1,6 @@
 ---
 title: Buy tickets
-description: Buy tickets for Wirral Summer Hops 2024.
+description: Buy tickets for Wirral Summer Hops Beer Festival 2024.
 url: https://www.trybooking.com/uk/events/landing/49231
 ---
 @extends('_layouts/main')
