@@ -1,5 +1,5 @@
 ---
-title: Wirral Summer Hops Beer Festival
+title: Welcome
 description: New for 2024, Wirral Summer Hops is a four day beer, food and music festival at Hoylake Rugby Club with all proceeds going to support local causes.
 ---
 @extends('_layouts.main')

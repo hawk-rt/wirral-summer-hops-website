@@ -1,7 +1,7 @@
 ---
-title: Redirecting...
-description: Redirecting to our ticket booking page.
-url: https://www.trybooking.com/uk/events/landing/49231?embed
+title: Buy tickets
+description: Buy tickets for Wirral Summer Hops 2024.
+url: https://www.trybooking.com/uk/events/landing/49231
 ---
 @extends('_layouts/main')
 
