@@ -23,6 +23,17 @@
                 }, 1000);
             </script>
         @endif
+        @if($page->production)
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-89P83N04BZ"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-89P83N04BZ');
+            </script>
+        @endif
     </head>
     <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
